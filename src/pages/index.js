@@ -19,6 +19,7 @@ class BlogIndex extends React.Component {
     const location = get(this, 'props.location')
 
     return (
+      <h1>Dinesh</h1>
       <Layout location={location}>
         <Helmet title={siteTitle} />
         <Bio settings={author} />
